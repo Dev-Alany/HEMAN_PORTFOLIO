@@ -17,12 +17,18 @@ import {
   docker,
   meta,
   starbucks,
+  mcbTechnologies,
+  westPokotCounty,
+  freelance,
   tesla,
   shopify,
   carrent,
   jobit,
   tripguide,
   threejs,
+  csharp,
+  python,
+  flutter,
 } from "../assets";
 
 export const navLinks = [
@@ -46,15 +52,15 @@ const services = [
     icon: web,
   },
   {
-    title: "React Native Developer",
-    icon: mobile,
-  },
-  {
     title: "Backend Developer",
     icon: backend,
   },
   {
-    title: "Content Creator",
+    title: "Mobile Developer",
+    icon: mobile,
+  },
+  {
+    title: "Video Editor",
     icon: creator,
   },
 ];
@@ -112,59 +118,72 @@ const technologies = [
     name: "docker",
     icon: docker,
   },
+  {
+    name: "C#",
+    icon: csharp,
+  },
+  {
+    name: "python",
+    icon: python,
+  },
+  {
+    name: "flutter",
+    icon: flutter,
+  },
 ];
 
 const experiences = [
   {
-    title: "React.js Developer",
-    company_name: "Starbucks",
-    icon: starbucks,
+    title: "Software Engineering Intern",
+    company_name: "MCB Technologies",
+    icon: mcbTechnologies,
     iconBg: "#383E56",
-    date: "March 2020 - April 2021",
+    date: "Jan 2024 - Present",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Developing and maintaining software applications using C#, ASP.NET, React.js, and Next.js.",
+      "Engaged in database administration and ensuring efficient data management.",
+      "Collaborating with cross-functional teams to meet project requirements and deadlines.",
+      "Applied Dart programming with Flutter for mobile development.",
+      "Participating in system engineering and DevOps practices.",
     ],
   },
   {
-    title: "React Native Developer",
-    company_name: "Tesla",
-    icon: tesla,
+    title: "Full Stack Developer",
+    company_name: "Freelance",
+    icon: freelance,
     iconBg: "#E6DEDD",
-    date: "Jan 2021 - Feb 2022",
+    date: "Jan 2022 - Present",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Developed and maintained web applications using React.js, Node.js, and other full-stack technologies.",
+      "Designed and implemented responsive user interfaces and ensured cross-browser compatibility.",
+      "Worked on mobile app development using Flutter and Dart.",
+      "Engaged in code reviews and provided feedback to improve code quality and maintainability.",
     ],
   },
   {
-    title: "Web Developer",
-    company_name: "Shopify",
-    icon: shopify,
+    title: "Finance Intern",
+    company_name: "West Pokot County",
+    icon: westPokotCounty,
+    iconBg: "#E6DEDD",
+    date: "Oct 2023 - Dec 2023",
+    points: [
+      "Assisted in data analysis, reconciliation, and financial report generation.",
+      "Participated in budget planning and financial reporting.",
+      "Collaborated with cross-functional teams to implement financial strategies.",
+      "Developed financial models for budgeting and forecasting.",
+    ],
+  },
+  {
+    title: "Economic and Budget Officer (Attachment)",
+    company_name: "West Pokot County",
+    icon: westPokotCounty,
     iconBg: "#383E56",
-    date: "Jan 2022 - Jan 2023",
+    date: "Oct 2022 - Jan 2023",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
-    ],
-  },
-  {
-    title: "Full stack Developer",
-    company_name: "Meta",
-    icon: meta,
-    iconBg: "#E6DEDD",
-    date: "Jan 2023 - Present",
-    points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Led economic analyses for strategic financial planning, including drafting CIDP 2023-2027.",
+      "Managed budget planning and alignment with organizational goals.",
+      "Conducted data analysis to optimize budget allocations for fiscal efficiency.",
+      "Collaborated with cross-functional teams to implement innovative financial strategies.",
     ],
   },
 ];
@@ -172,7 +191,7 @@ const experiences = [
 const testimonials = [
   {
     testimonial:
-      "I thought it was impossible to make a website as beautiful as our product, but Rick proved me wrong.",
+      "I thought it was impossible to make a website as beautiful as our product, but Heman proved me wrong.",
     name: "Sara Lee",
     designation: "CFO",
     company: "Acme Co",
@@ -180,7 +199,7 @@ const testimonials = [
   },
   {
     testimonial:
-      "I've never met a web developer who truly cares about their clients' success like Rick does.",
+      "I've never met a web developer who truly cares about their clients' success like Heman does.",
     name: "Chris Brown",
     designation: "COO",
     company: "DEF Corp",
@@ -188,7 +207,7 @@ const testimonials = [
   },
   {
     testimonial:
-      "After Rick optimized our website, our traffic increased by 50%. We can't thank them enough!",
+      "After Heman optimized our website, our traffic increased by 50%. We can't thank them enough!",
     name: "Lisa Wang",
     designation: "CTO",
     company: "456 Enterprises",
@@ -198,12 +217,81 @@ const testimonials = [
 
 const projects = [
   {
-    name: "Car Rent",
+    name: "Building an AirBnB Clone",
     description:
-      "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+      "This project is the initial stage of building a web-based platform that allows users to manage property listings, bookings, and other essential tasks. It implements a backend interface for creating, updating, and managing data through console commands, with persistent storage using JSON serialization/deserialization.",
+    tags: [
+      {
+        name: "Python",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "HTML",
+        color: "green-text-gradient",
+      },
+      {
+        name: "CSS",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "Shell",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "Puppet",
+        color: "green-text-gradient",
+      },
+    ],
+    image: carrent,
+    source_code_link: "https://github.com/Dev-Alany/AirBnB_clone_v2",
+  },
+  {
+    name: "Legal Management System",
+    description:
+      "A web-based platform designed to streamline legal case management, enabling users to track case progress, manage client details, schedule appointments, and store legal documents securely. The system improves efficiency for law firms and legal professionals by automating administrative tasks.",
     tags: [
       {
         name: "react",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "Python",
+        color: "green-text-gradient",
+      },
+      {
+        name: "Tailwind",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "mySQL",
+        color: "blue-text-gradient",
+      },
+    ],
+    image: jobit,
+    source_code_link:
+      "https://github.com/Dev-Alany/Webstack---Portfolio-Project",
+    video_link:
+      "https://www.youtube.com/watch?v=qec3YXIsAdA&t=86s&ab_channel=HemanAlany",
+  },
+  {
+    name: "Finsight",
+    description:
+      "A comprehensive financial analytics tool designed for progressive FinTechs. FinSights processes MPESA and bank statements, providing insights such as credit scores, spending habits, and other relevant financial information. These insights help users and businesses make informed financial decisions and enhance their operations.",
+    tags: [
+      {
+        name: "React",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "Tailwind",
+        color: "green-text-gradient",
+      },
+      {
+        name: "C#",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "python",
         color: "blue-text-gradient",
       },
       {
@@ -211,54 +299,12 @@ const projects = [
         color: "green-text-gradient",
       },
       {
-        name: "tailwind",
-        color: "pink-text-gradient",
-      },
-    ],
-    image: carrent,
-    source_code_link: "https://github.com/",
-  },
-  {
-    name: "Job IT",
-    description:
-      "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
-    tags: [
-      {
-        name: "react",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "restapi",
-        color: "green-text-gradient",
-      },
-      {
-        name: "scss",
-        color: "pink-text-gradient",
-      },
-    ],
-    image: jobit,
-    source_code_link: "https://github.com/",
-  },
-  {
-    name: "Trip Guide",
-    description:
-      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
-    tags: [
-      {
-        name: "nextjs",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "supabase",
-        color: "green-text-gradient",
-      },
-      {
-        name: "css",
+        name: "postgreSQL",
         color: "pink-text-gradient",
       },
     ],
     image: tripguide,
-    source_code_link: "https://github.com/",
+    video_link: "https://finsights.mcb.co.ke/",
   },
 ];
 

@@ -6,6 +6,7 @@ import { styles } from "../styles";
 import { EarthCanvas } from "./canvas";
 import { SectionWrapper } from "../hoc";
 import { slideIn } from "../utils/motion";
+import Swal from "sweetalert2";
 
 const Contact = () => {
   const formRef = useRef();
@@ -31,23 +32,29 @@ const Contact = () => {
     e.preventDefault();
     setLoading(true);
 
+    // Hardcode your EmailJS credentials
     emailjs
       .send(
-        import.meta.env.VITE_APP_EMAILJS_SERVICE_ID,
-        import.meta.env.VITE_APP_EMAILJS_TEMPLATE_ID,
+        "service_s52taxm", // replace with your EmailJS service ID
+        "template_kpicavq", // replace with your EmailJS template ID
         {
           from_name: form.name,
-          to_name: "JavaScript Mastery",
+          to_name: "Heman Lochaa Alany", // your name
           from_email: form.email,
-          to_email: "devalanyheman2@gmail.com",
+          to_email: "devalanyheman2@gmail.com", // your email
           message: form.message,
         },
-        import.meta.env.VITE_APP_EMAILJS_PUBLIC_KEY
+        "q6Nz5e329wwR25rwz" // replace with your EmailJS public key
       )
       .then(
         () => {
           setLoading(false);
-          alert("Thank you. I will get back to you as soon as possible.");
+          Swal.fire({
+            title: "Success!",
+            text: "Thank you. I will get back to you as soon as possible.",
+            icon: "success",
+            confirmButtonText: "OK",
+          });
 
           setForm({
             name: "",
@@ -59,7 +66,12 @@ const Contact = () => {
           setLoading(false);
           console.error(error);
 
-          alert("Ahh, something went wrong. Please try again.");
+          Swal.fire({
+            title: "Error",
+            text: "Ahh, something went wrong. Please try again.",
+            icon: "error",
+            confirmButtonText: "OK",
+          });
         }
       );
   };

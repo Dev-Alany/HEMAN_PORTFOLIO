@@ -20,15 +20,22 @@ import redux from "./tech/redux.png";
 import tailwind from "./tech/tailwind.png";
 import typescript from "./tech/typescript.png";
 import threejs from "./tech/threejs.svg";
+import csharp from "./tech/c-sharp.png";
+import python from "./tech/python.png";
+import flutter from "./tech/flutter.png";
 
 import meta from "./company/meta.png";
 import shopify from "./company/shopify.png";
 import starbucks from "./company/starbucks.png";
+import freelance from "./company/freelance-removebg-preview.png";
+import mcbTechnologies from "./company/mcbTechnologies-modified.png";
+import westPokotCounty from "./company/westPokotCounty.jpg";
 import tesla from "./company/tesla.png";
 
 import carrent from "./carrent.png";
-import jobit from "./jobit.png";
+import jobit from "./jobit.jpg";
 import tripguide from "./tripguide.png";
+import video from "./video.png";
 
 export {
   logo,
@@ -41,10 +48,13 @@ export {
   close,
   css,
   docker,
+  python,
+  csharp,
   figma,
   git,
   html,
   javascript,
+  flutter,
   mongodb,
   nodejs,
   reactjs,
@@ -55,8 +65,12 @@ export {
   meta,
   shopify,
   starbucks,
+  mcbTechnologies,
+  westPokotCounty,
+  freelance,
   tesla,
   carrent,
   jobit,
   tripguide,
+  video,
 };
