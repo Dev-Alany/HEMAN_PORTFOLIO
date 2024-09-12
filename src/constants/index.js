@@ -160,32 +160,32 @@ const experiences = [
       "Engaged in code reviews and provided feedback to improve code quality and maintainability.",
     ],
   },
-  {
-    title: "Finance Intern",
-    company_name: "West Pokot County",
-    icon: westPokotCounty,
-    iconBg: "#E6DEDD",
-    date: "Oct 2023 - Dec 2023",
-    points: [
-      "Assisted in data analysis, reconciliation, and financial report generation.",
-      "Participated in budget planning and financial reporting.",
-      "Collaborated with cross-functional teams to implement financial strategies.",
-      "Developed financial models for budgeting and forecasting.",
-    ],
-  },
-  {
-    title: "Economic and Budget Officer (Attachment)",
-    company_name: "West Pokot County",
-    icon: westPokotCounty,
-    iconBg: "#383E56",
-    date: "Oct 2022 - Jan 2023",
-    points: [
-      "Led economic analyses for strategic financial planning, including drafting CIDP 2023-2027.",
-      "Managed budget planning and alignment with organizational goals.",
-      "Conducted data analysis to optimize budget allocations for fiscal efficiency.",
-      "Collaborated with cross-functional teams to implement innovative financial strategies.",
-    ],
-  },
+  // {
+  //   title: "Finance Intern",
+  //   company_name: "West Pokot County",
+  //   icon: westPokotCounty,
+  //   iconBg: "#E6DEDD",
+  //   date: "Oct 2023 - Dec 2023",
+  //   points: [
+  //     "Assisted in data analysis, reconciliation, and financial report generation.",
+  //     "Participated in budget planning and financial reporting.",
+  //     "Collaborated with cross-functional teams to implement financial strategies.",
+  //     "Developed financial models for budgeting and forecasting.",
+  //   ],
+  // },
+  // {
+  //   title: "Economic and Budget Officer (Attachment)",
+  //   company_name: "West Pokot County",
+  //   icon: westPokotCounty,
+  //   iconBg: "#383E56",
+  //   date: "Oct 2022 - Jan 2023",
+  //   points: [
+  //     "Led economic analyses for strategic financial planning, including drafting CIDP 2023-2027.",
+  //     "Managed budget planning and alignment with organizational goals.",
+  //     "Conducted data analysis to optimize budget allocations for fiscal efficiency.",
+  //     "Collaborated with cross-functional teams to implement innovative financial strategies.",
+  //   ],
+  // },
 ];
 
 const testimonials = [
