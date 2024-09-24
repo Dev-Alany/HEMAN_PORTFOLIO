@@ -66,18 +66,18 @@ const services = [
 ];
 
 const technologies = [
-  {
-    name: "HTML 5",
-    icon: html,
-  },
-  {
-    name: "CSS 3",
-    icon: css,
-  },
-  {
-    name: "JavaScript",
-    icon: javascript,
-  },
+  // {
+  //   name: "HTML 5",
+  //   icon: html,
+  // },
+  // {
+  //   name: "CSS 3",
+  //   icon: css,
+  // },
+  // {
+  //   name: "JavaScript",
+  //   icon: javascript,
+  // },
   {
     name: "TypeScript",
     icon: typescript,
@@ -200,9 +200,9 @@ const testimonials = [
   {
     testimonial:
       "I've never met a web developer who truly cares about their clients' success like Heman does.",
-    name: "Chris Brown",
-    designation: "COO",
-    company: "DEF Corp",
+    name: "James Mabiokeg",
+    designation: "CEO",
+    company: "MCB Technologies",
     image: "https://randomuser.me/api/portraits/men/5.jpg",
   },
   {

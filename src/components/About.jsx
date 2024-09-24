@@ -61,6 +61,31 @@ const About = () => {
           <ServiceCard key={service.title} index={index} {...service} />
         ))}
       </div>
+
+      {/* GitHub Links Section */}
+      <div className="mt-20">
+        <p className="text-secondary text-[17px] mb-4">
+          These are my main GitHub accounts:
+        </p>
+        <div className="flex flex-wrap gap-5">
+          <a
+            href="https://github.com/Dev-Alany"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="bg-blue-500 hover:bg-blue-600 text-white py-2 px-4 rounded-lg shadow-md transition-all duration-300"
+          >
+            GitHub - Dev-Alany
+          </a>
+          <a
+            href="https://github.com/HEMAN-DIARCK"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="bg-gray-800 hover:bg-gray-900 text-white py-2 px-4 rounded-lg shadow-md transition-all duration-300"
+          >
+            GitHub - HEMAN-DIARCK
+          </a>
+        </div>
+      </div>
     </>
   );
 };
